@@ -1,0 +1,29 @@
+header {
+  height: 85vh;
+  background-image: linear-gradient(
+      to right bottom,
+      #333333cf,
+      #772dcbc9,
+      #c871fabf
+    ),
+    url('../images/compass.jpg');
+  background-size: cover;
+  background-position: center;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
+  position: relative;
+}
+.form--main__title {
+  color: $white;
+  letter-spacing: 0.3rem;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 4.5rem;
+}
+
+.form--main__header {
+  margin: 3rem 0 1rem 0;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pirate Post</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <form action="POST">
+      <header>
+        <h1 class="form--main__title">Pirate Post</h1>
+      </header>
+      <main class="form">
+        <section class="form__group-contact">
+          <h3 class="form--main__header">
+            The Davey Jones' Locker of Email Newsletters
+          </h3>
+          <p>
+            Ahoy! Plunk in yer details below and we’ll send ya tips and tricks
+            on pillaging, treasure huntin’, drinking grog, and much more. Batten
+            down the hatches!
+          </p>
+          <hr class="line" />
+        </section>
+        <section>
+          <fieldset>
+            <legend>
+              Yer Contact Info, Matey
+            </legend>
+            <label for="name">Yer Pirate Name: </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Blackbeard"
+              required
+            />
+            <label for="email">Yer Land Lubbin' Email: </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="guybrush@threepwood.com"
+              required
+            />
+            <label for="port">Yer Home Port: </label>
+            <input type="text" id="port" name="port" placeholder="Port Royal" />
+          </fieldset>
+        </section>
+        <section class="treasure__map">
+          <fieldset>
+            <legend>What Treasure Map Ye Be Wantin'?</legend>
+            <p>
+              Handsomely Davey Jones' Locker pillage scurvy treasure ship:
+            </p>
+            <div class="check">
+              <label for="x">
+                X Marks The Spot
+                <input type="checkbox" name="x" id="x" />
+              </label>
+              <label for="less">
+                Less Diggin'
+                <input type="checkbox" name="less" id="less" />
+              </label>
+              <label for="moar">
+                Moar Treasure
+                <input type="checkbox" name="moar" id="moar" />
+              </label>
+            </div>
+          </fieldset>
+        </section>
+        <hr class="line" />
+        <div class="buttons">
+          <a class="btn--primary" href="#" role="button">SEND PARROT</a>
+          <a class="btn--secondary" href="#" role="button">ARR! RESET</a>
+        </div>
+      </main>
+    </form>
+    <footer><p>&copy; 2019 Pirate Post</p></footer>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+.btn--primary {
+  background-color: $light-purple;
+  @include btn;
+
+  &:hover {
+    background-color: darken($light-purple, 10%);
+    transition: ease-in-out 0.2s;
+  }
+}
+
+.btn--secondary {
+  @include btn;
+  background-color: $dark-purple;
+  &:hover {
+    background-color: darken($dark-purple, 10%);
+    transition: ease-in-out 0.2s;
+  }
+}

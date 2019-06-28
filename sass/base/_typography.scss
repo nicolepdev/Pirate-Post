@@ -1,0 +1,23 @@
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: $base-font-size + $heading-scale * (6 - $i);
+    color: $dark-grey;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-stack-headings;
+}
+
+p {
+  font-family: $font-stack-body;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 1.7;
+  color: $light-grey;
+}

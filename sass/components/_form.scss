@@ -1,0 +1,63 @@
+.form {
+  width: 85%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  font-family: $font-stack-body;
+  margin-bottom: 4rem;
+}
+
+legend {
+  font-family: $font-stack-headings;
+  font-size: 2.4rem;
+  letter-spacing: 0.0625rem;
+  font-weight: bold;
+  color: $dark-grey;
+  margin: 1rem 0;
+}
+
+label {
+  display: inline-block;
+  margin: 1rem 0;
+  color: $light-grey;
+  width: 100%;
+}
+fieldset {
+  border: none;
+  margin: 2rem 0;
+}
+input {
+  font-size: 1.7rem;
+  font-weight: 300;
+  border-radius: 3rem;
+  padding: 7px;
+  outline: none;
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+  border: 1px solid $light-purple;
+  background-color: $lighter-grey;
+}
+
+input:focus {
+  border: 1.4px solid $dark-purple;
+  transition: ease-in-out 0.3s;
+}
+.check {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 2.5rem;
+  margin: 1rem 0;
+}
+.check input {
+  position: absolute;
+  left: -2.2rem;
+  top: 0.1rem;
+}
+.check label {
+  margin-top: 0;
+  font-weight: 300;
+  position: relative;
+}
+.treasure__map {
+  margin-bottom: -2rem;
+}

@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // This defines what 1rem is in the project
+  font-size: 62.5%; // 1rem = 10px; 10px/16px = 62.5%
+}
+
+footer {
+  background: rgb(51, 51, 51);
+  background: linear-gradient(
+    90deg,
+    rgba(51, 51, 51, 1) 0%,
+    rgba(119, 45, 203, 1) 49%,
+    rgba(200, 113, 250, 1) 100%
+  );
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 1rem 0;
+
+  p {
+    color: $white;
+  }
+}
+
+.line {
+  margin: 2rem;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
